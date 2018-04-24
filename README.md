@@ -1,6 +1,5 @@
 # OneWeekendRaytracer
 My implementation of Peter Shirley One Weekend Raytracer
-# Byron Cornejo Curso Rendering: Raytracer/Pathtracer
 
 ## Avance del Proyecto
 
