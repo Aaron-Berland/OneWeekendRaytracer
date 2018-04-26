@@ -8,8 +8,4 @@ My implementation of Peter Shirley One Weekend Raytracer
 * Chapter 3: Done
 * Chapter 4: Done 
 * Chapter 5: Done
-* Add Environment mapping: 
-* Add Triangles:
-* Add Composite Objects: 
-* Add Parsing Thing:
 
