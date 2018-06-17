@@ -1,4 +1,7 @@
 #pragma once
+#ifndef VEC3H
+#define VEC3H
+
 #include <math.h>
 #include <stdlib.h>
 #include <iostream>
@@ -8,9 +11,6 @@ class vec3
 public:
 	float e[3];
 	vec3() {
-		e[0] = .0f;
-		e[1] = .0f;
-		e[2] = .0f;
 	}
 	vec3(float e0, float e1, float e2) {
 		e[0] = e0;
@@ -25,7 +25,7 @@ public:
 	inline float b() const { return e[2]; }
 	
 	inline const vec3& operator+() const { return *this; };
-	inline vec3 operator-() const { return vec3(-e[0], -e[1], -e[3]); }
+	inline vec3 operator-() const { return vec3(-e[0], -e[1], -e[2]); }
 	inline float operator[](int i)  const { return e[i]; }
 	inline float& operator[](int i) { return e[i]; }
 
@@ -147,9 +147,10 @@ inline vec3& vec3::operator*=(const float t) {
 }
 
 inline vec3& vec3::operator/=(const float t) {
-	e[0] /= t;
-	e[1] /= t;
-	e[2] /= t;
+	float k = 1.0 / t;
+	e[0] *= k;
+	e[1] *= k;
+	e[2] *= k;
 	return *this;
 }
 
@@ -161,3 +162,4 @@ inline vec3 unit_vector(vec3 v) {
 
 
 
+#endif
