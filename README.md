@@ -26,4 +26,4 @@ My implementation of Peter Shirley One Weekend Raytracer
 * Chapter 6: Done
 * Chapter 7: Done
 * Chapter 8: Done
-
+![Book2cover Image](Raytracer/Raytracer/Book2-Cover.png)
