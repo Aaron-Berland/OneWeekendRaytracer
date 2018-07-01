@@ -16,7 +16,7 @@ My implementation of Peter Shirley One Weekend Raytracer
 * Chapter 11: Done
 
 
-![Bookcover Image](Aaron-Berland.github.com/OneWeekendRaytracerr/tree/master/Raytracer/Raytracer/RaytracerBookCover.png)
+![Bookcover Image](Raytracer/Raytracer/RaytracerBookCover.png)
 ## Book 2:
 * Chapter 1: Done
 * Chapter 2: Done
