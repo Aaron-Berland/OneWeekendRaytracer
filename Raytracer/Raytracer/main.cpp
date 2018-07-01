@@ -276,7 +276,7 @@ int main() {
 		}
 
 	}
-	stbi_write_png("Book2-Cover.png", width, height, CHANNEL_NUM, output_image, width*CHANNEL_NUM);
+	stbi_write_png("z.png", width, height, CHANNEL_NUM, output_image, width*CHANNEL_NUM);
 	std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
 	std::cout << "Time difference = " << std::chrono::duration_cast<std::chrono::seconds>(end - begin).count() << std::endl;
 	std::cout << "Time difference = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() << std::endl;
